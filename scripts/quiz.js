@@ -63,6 +63,11 @@ quizform.addEventListener("submit", async function () {
 
             let optionD = document.createElement("h4");
             optionD.textContent = data.opt4;
+
+            let reviewBtn = document.createElement("button");
+
+            quizcard.append(title,optionA,optionB,optionC,optionD);
+            quizCont.append(quizcard);
         })
     }
 
