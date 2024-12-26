@@ -1,0 +1,23 @@
+#nav-bar {
+    width: 100vw;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+#navlinks {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navlinks>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
